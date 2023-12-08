@@ -1,0 +1,60 @@
+Coffee name: Nescaffe
+Manufacturer: Poland
+Sort: Robusta
+Type: Powdery
+Price: 283.5 UAH
+Package type: Jar
+Weight: 620.0 grams
+Coffee Weight: 500.0 grams
+Package Weight: 120.0 grams
+Term: 36 month
+Grade: 7.25
+
+Coffee name: Pullia
+Manufacturer: Norway
+Sort: Sublimated
+Type: Grains
+Price: 218.99999999999997 UAH
+Package type: Pack
+Weight: 780.0 grams
+Coffee Weight: 750.0 grams
+Package Weight: 30.0 grams
+Term: 48 month
+Grade: 9
+
+Coffee name: Optimal
+Manufacturer: Ukraine
+Sort: Arabica
+Type: Soluble
+Price: 126.25 UAH
+Package type: Can
+Weight: 325.0 grams
+Coffee Weight: 250.0 grams
+Package Weight: 75.0 grams
+Term: 60 month
+Grade: 6
+
+Coffee name: innocent
+Manufacturer: Denmark
+Sort: Arabica
+Type: Soluble
+Price: 817.5 UAH
+Package type: Jar
+Weight: 3100.0 grams
+Coffee Weight: 2500.0 grams
+Package Weight: 600.0 grams
+Term: 96 month
+Grade: 5.5
+
+Coffee name: Late
+Manufacturer: Portugal
+Sort: Robusta
+Type: Soluble
+Price: 249.0675 UAH
+Package type: Pack
+Weight: 858.0 grams
+Coffee Weight: 825.0 grams
+Package Weight: 33.0 grams
+Term: 30 month
+Grade: 8.75
+
