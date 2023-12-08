@@ -19,12 +19,13 @@ public class CoffeeDataBase extends Coffee {
         coffeeList.add(coffee);
     }
     public Coffee getCoffee(double weight, String coffeeName) {
+        Coffee cp = new Coffee();
         for (Coffee coffee : coffeeList) {
             if (coffee.getTotalWeight() == weight && coffee.getCoffeeName().equals(coffeeName)) {
                 return coffee;
             }
         }
-        return null;
+        return cp;
     }
     public void deleteCoffee(double weight, String coffeeName) {
         List<Coffee> coffeesToRemove = new ArrayList<>();

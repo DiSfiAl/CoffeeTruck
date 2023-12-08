@@ -33,7 +33,7 @@ public class Coffee extends Package {
         this.totalWeight = 0.00;
         this.term = 0;
     }
-    private double formatDouble(double value) {
+    public double formatDouble(double value) {
         BigDecimal bd = BigDecimal.valueOf(value);
         bd = bd.setScale(DECIMAL_PLACES, RoundingMode.DOWN);
         return bd.doubleValue();

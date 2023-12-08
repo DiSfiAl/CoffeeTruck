@@ -5,6 +5,7 @@ import com.coffee.CoffeePackaging;
 import com.coffee.CoffeeDataBase;
 
 import java.io.*;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -47,15 +48,15 @@ public class Truck extends CoffeePackaging {
 
     public void getInfo() {
         System.out.println("Truck name: " + getTruckName());
-        System.out.println("Max Weight: " + getMaxWeight() / 1000 + " kilograms");
-        System.out.println("Current Weight: " + getCurrentWeight() / 1000 + " kilograms\n");
+        System.out.println("Max Weight: " + String.format("%.2f", getMaxWeight() / 1000) + " kilograms");
+        System.out.println("Current Weight: " + String.format("%.2f", getCurrentWeight() / 1000) + " kilograms\n");
     }
 
     public void setInfo() {
         System.out.print("Truck name: ");
         truckName = scanner.nextLine();
         System.out.print("Max Weight(kilograms):");
-        maxWeight = scanner.nextInt();
+        maxWeight = Double.parseDouble(scanner.next());
         maxWeight *= 1000;
         currentWeight = 0.00;
         System.out.print("Truck " + getTruckName() + " added");
@@ -67,21 +68,28 @@ public class Truck extends CoffeePackaging {
         String name;
         double weight;
         int packagesAmount;
+
         System.out.print("Select Coffee that you want to add: \nEnter coffee name: ");
         name = scanner.nextLine();
+
         System.out.print("Enter weight(in grams): ");
-        weight = Double.parseDouble(scanner.next());
-        scanner.nextLine();
-        coffee.setInfo(obj.getCoffee(weight, name));
+        String weightInput = scanner.nextLine();
+        weight = Double.parseDouble(weightInput);
+
         System.out.print("Enter Amount of packages: ");
-        packagesAmount = scanner.nextInt();
+        String packagesInput = scanner.nextLine();
+        packagesAmount = Integer.parseInt(packagesInput);
 
         if (setCurrentWeight(coffee.getTotalWeight(), packagesAmount)) {
-            CoffeePackaging cp = new CoffeePackaging();
+            coffee.setInfo(obj.getCoffee(weight, name));
+        }
+
+        CoffeePackaging cp = new CoffeePackaging();
+        if (coffee.getTotalWeight() == weight && coffee.getCoffeeName().equals(name)) {
             cp.setInfo(coffee, packagesAmount);
             coffeeList.add(cp);
-
             writeTruckInfoToFile();
+            System.out.println("Baggage added");
         } else {
             System.out.println("Too heavy baggage");
         }
@@ -146,7 +154,7 @@ public class Truck extends CoffeePackaging {
                         break;
                     case "Coffee name":
                         if (coffeePackaging != null) {
-                            coffeeList.add(coffeePackaging); є
+                            coffeeList.add(coffeePackaging);
                         }
                         coffeePackaging = new CoffeePackaging();
                         coffeePackaging.setCoffeeName(value);

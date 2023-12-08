@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec835a8-f462-4a1b-b7b6-2eb26fcfa274" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeTruck.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Package/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coffee/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coffee/CoffeeDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coffee/CoffeePackaging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/truck/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coffee/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coffee/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coffee/CoffeeDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coffee/CoffeeDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/truck/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/truck/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testInfo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

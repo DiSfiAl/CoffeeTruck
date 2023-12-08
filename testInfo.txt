@@ -1,6 +1,6 @@
 Truck name: test
 Max Weight: 10000.0 grams
-Current Weight: 9450.0 grams
+Current Weight: 9775.0 grams
 	Coffee packed:
 Coffee name: Optimal
 Manufacturer: Ukraine
@@ -12,7 +12,7 @@ Weight: 325.0 grams
 Coffee Weight: 250.0 grams
 Package Weight: 75.0 grams
 Term: 60 month
-Grade: 6
+Grade: 6.0
 Number of packages: 10
 
 Coffee name: innocent
@@ -28,3 +28,15 @@ Term: 96 month
 Grade: 5.5
 Number of packages: 2
 
+Coffee name: Optimal
+Manufacturer: Ukraine
+Sort: Arabica
+Type: Soluble
+Price: 126.25 UAH
+Package type: Can
+Weight: 325.0 grams
+Coffee Weight: 250.0 grams
+Package Weight: 75.0 grams
+Term: 60 month
+Grade: 6.0
+Number of packages: 1
