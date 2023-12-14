@@ -12,9 +12,14 @@ public class CoffeeDataBase extends Coffee {
     public CoffeeDataBase() {
         this.coffeeList = new ArrayList<>();
     }
+    public int getCoffeeListSize() { return coffeeList.size(); }
     public void addCoffee() throws IOException {
         Coffee coffee = new Coffee();
         coffee.setInfo();
+        addToFile(coffee);
+        coffeeList.add(coffee);
+    }
+    public void addCoffee(Coffee coffee) throws IOException {
         addToFile(coffee);
         coffeeList.add(coffee);
     }

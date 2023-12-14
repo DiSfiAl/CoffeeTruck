@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec835a8-f462-4a1b-b7b6-2eb26fcfa274" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/CoffeeDataBaseTest/CoffeeDataBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CoffeePackingTest/CoffeePackingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CoffeeTest/CoffeePackageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TruckTest/TruckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/forTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDataBase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDataBase.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeTruck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeTruck.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Package/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Package/Package.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coffee/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coffee/Coffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/coffee/CoffeeDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coffee/CoffeeDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coffee/CoffeePackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coffee/CoffeePackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/truck/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/truck/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testInfo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +44,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/pasha/IdeaProjects/untitled",
-    "onboarding.tips.debug.path": "C:/Users/pasha/IdeaProjects/CoffeeTruck/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pasha/IdeaProjects/untitled&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pasha/IdeaProjects/CoffeeTruck/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="CoffeePackageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeTruck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.CoffeeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.CoffeeTest" />
+      <option name="MAIN_CLASS_NAME" value="test.CoffeeTest.CoffeePackageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CoffeePackageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,5 +94,9 @@
       <updated>1701202314868</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

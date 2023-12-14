@@ -24,7 +24,12 @@ public class Truck extends CoffeePackaging {
         this.currentWeight = 0.00;
         this.coffeeList = new ArrayList<>();
     }
-
+    public void setTruckName(String name) {
+        this.truckName = name;
+    }
+    public void setMaxWeight(double maxWeight) {
+        this.maxWeight = maxWeight;
+    }
     public String getTruckName() {
         return truckName;
     }

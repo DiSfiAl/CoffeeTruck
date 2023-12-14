@@ -7,8 +7,8 @@ public class Package {
         this.packageWeight = 0.00;
     }
     public void setPackageWeight(double packageWeight) { this.packageWeight = packageWeight; }
-    public void setPackageWeight(double oneHundredPackWeight, double coffeeWeight) { packageWeight = coffeeWeight / 100 * oneHundredPackWeight; }
-    public void setPackagePrice(double oneGramPrice) { packagePrice = getPackageWeight() * oneGramPrice; }
+    public void setPackageWeight(double oneHundredPackWeight, double coffeeWeight) { this.packageWeight = coffeeWeight / 100 * oneHundredPackWeight; }
+    public void setPackagePrice(double oneGramPrice) { this.packagePrice = getPackageWeight() * oneGramPrice; }
     public double getPackageWeight() { return packageWeight; }
     public double getPackagePrice() { return packagePrice; }
 }

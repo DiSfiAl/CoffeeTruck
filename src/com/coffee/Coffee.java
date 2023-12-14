@@ -44,10 +44,13 @@ public class Coffee extends Package {
     public void setSort(String sort) { this.sort = sort; }
     public void setType(String type) { this.type = type; }
     public void setTotalPrice(double totalPrice) { this.totalPrice = totalPrice; }
+    public void setPriceFor100G(double priceFor100G) { this.priceFor100G = priceFor100G; }
     public void setCoffeeWeight(double coffeeWeight) { this.coffeeWeight = coffeeWeight; }
     public void setTotalWeight(double totalWeight) { this.totalWeight = totalWeight; }
     public void setGrade(double grade) { this.grade = grade; }
-    public void setTerm(int term) { this.term = term; }
+    public void setTerm(int term) {
+        this.term = Math.max(term, 0);
+    }
     public void setTotalWeight() { totalWeight = coffeeWeight + getPackageWeight();  }
     protected String getValueFromLine(String line, int start) {
         if (line.length() > start) {
@@ -79,6 +82,11 @@ public class Coffee extends Package {
             setPackagePrice(oneGramPrice);
             setTotalWeight();
         }
+        else {
+            setPackageWeight(0, getCoffeeWeight());
+            setPackagePrice(0);
+            setTotalWeight();
+        }
     }
     public void calcGrade() {
         int aroma = -1, flavor = -1, density = -1, acidity = -1;
@@ -101,9 +109,17 @@ public class Coffee extends Package {
             acidity = scanner.nextInt();
         }
         this.grade = (double) (aroma + flavor + density + acidity) / 4;
+        if(this.grade > 10 || this.grade < 0) {
+            grade = 0;
+        }
+    }
+    public void calcGrade(int aroma, int flavor, int density, int acidity) {
+        this.grade = (double) (aroma + flavor + density + acidity) / 4;
+        if(this.grade > 10 || this.grade < 0) {
+            grade = 0;
+        }
     }
     public void calcTotalPrice() {
-        calcTotalWeight();
         coffeePrice = getPriceFor100G() / 100 * getCoffeeWeight();
         totalPrice = getCoffeePrice() + getPackagePrice();
     }
@@ -132,8 +148,11 @@ public class Coffee extends Package {
             System.out.print("Enter type of package(Can, Jar, Pack): ");
             this.packageType = scanner.nextLine();
         }
-        System.out.print("Enter coffee term(month): ");
-        this.term = scanner.nextInt();
+        while(term < 0) {
+            System.out.print("Enter coffee term(month): ");
+            this.term = scanner.nextInt();
+        }
+        calcTotalWeight();
         calcTotalPrice();
         calcGrade();
     }

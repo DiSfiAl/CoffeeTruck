@@ -3,7 +3,7 @@ import com.coffee.Coffee;
 import com.coffee.CoffeeDataBase;
 
 public class CoffeePackaging extends CoffeeDataBase {
-    private Coffee coffee;
+    private final Coffee coffee;
     private int numberOfPackages;
     public void setCoffeeName(String name) { coffee.setCoffeeName(name);}
     public void setPackageType(String packageType) { coffee.setPackageType(packageType); }
