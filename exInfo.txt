@@ -1,0 +1,17 @@
+Truck name: ex
+Max Weight: 5000.0 grams
+Current Weight: 0.0 grams
+	Coffee packed:
+Coffee name: 
+Manufacturer: 
+Sort: 
+Type: 
+Price: 0.0 UAH
+Package type: 
+Weight: 0.0 grams
+Coffee Weight: 0.0 grams
+Package Weight: 0.0 grams
+Term: 0 month
+Grade: 0.0
+Number of packages: 0
+

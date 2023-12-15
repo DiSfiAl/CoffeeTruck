@@ -1,6 +1,5 @@
 package com.main;
 
-import com.coffee.Coffee;
 import com.coffee.CoffeeDataBase;
 import com.truck.Truck;
 
@@ -13,8 +12,9 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         CoffeeDataBase coffeeDataBase = new CoffeeDataBase();
+        coffeeDataBase.readFromFile();
         Scanner scanner = new Scanner(System.in);
         List<Truck> truckList = new ArrayList<>();
 
@@ -47,10 +47,10 @@ class WorkWithTrucksCommand implements Command {
 
     @Override
     public void execute() throws IOException {
-        coffeeDataBase.readFromFile();
         int choice = -1, nextChoice;
 
         while (choice != 0) {
+            clearConsole();
             System.out.println("\nMenu:");
             System.out.println("1. Add new truck");
             System.out.println("2. Add baggage to truck");

@@ -1,5 +1,7 @@
 package com.coffee;
 
+import Logs.MyLogger;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,6 +23,7 @@ public class CoffeeDataBase extends Coffee {
     }
     public void addCoffee(Coffee coffee) throws IOException {
         addToFile(coffee);
+        MyLogger.logInfo("Coffee added: " + coffee.getCoffeeName());
         coffeeList.add(coffee);
     }
     public Coffee getCoffee(double weight, String coffeeName) {
@@ -82,6 +85,7 @@ public class CoffeeDataBase extends Coffee {
         BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
         writer.write(coffee.toWrite() + "\n");
         writer.close();
+        MyLogger.logInfo("Coffee added to file: " + coffee.getCoffeeName());
     }
     public void readFromFile() throws IOException {
         String fileName = "CoffeeDataBase.txt";
@@ -114,9 +118,9 @@ public class CoffeeDataBase extends Coffee {
                 writer.write(coffee.toWrite() + "\n");
             }
             writer.close();
-            System.out.println("File updated successfully.");
+            MyLogger.logInfo("File updated successfully.");
         } catch (IOException e) {
-            System.out.println("An error occurred while updating the file: " + e.getMessage());
+            MyLogger.logError("An error occurred while updating the file: " + e.getMessage(), e);
         }
     }
 

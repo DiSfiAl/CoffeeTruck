@@ -34,30 +34,6 @@ Package Weight: 60.0 grams
 Term: 36 month
 Grade: 6.25
 
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
 Coffee name: Test2
 Manufacturer: Country
 Sort: Arabica
@@ -94,99 +70,39 @@ Package Weight: 60.0 grams
 Term: 36 month
 Grade: 6.25
 
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
+Coffee name: ubit
+Manufacturer: Switzerland
+Sort: Robusta
+Type: Powdery
 Price: 173.0 UAH
 Package type: Jar
 Weight: 310.0 grams
 Coffee Weight: 250.0 grams
 Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
+Term: 0 month
+Grade: 9.0
 
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
+Coffee name: Illive
+Manufacturer: USA
+Sort: Robusta
+Type: Soluble
+Price: 724.9499999999999 UAH
+Package type: Can
+Weight: 650.0 grams
+Coffee Weight: 500.0 grams
+Package Weight: 150.0 grams
+Term: 0 month
+Grade: 6.75
 
-Coffee name: Test
-Manufacturer: Country
+Coffee name: lulz
+Manufacturer: UA
 Sort: Arabica
 Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
-
-Coffee name: Test
-Manufacturer: Country
-Sort: Arabica
-Type: Grains
-Price: 173.0 UAH
-Package type: Jar
-Weight: 310.0 grams
-Coffee Weight: 250.0 grams
-Package Weight: 60.0 grams
-Term: 36 month
-Grade: 6.25
+Price: 102.0 UAH
+Package type: Pack
+Weight: 1040.0 grams
+Coffee Weight: 1000.0 grams
+Package Weight: 40.0 grams
+Term: 0 month
+Grade: 2.5
 

@@ -1,0 +1,17 @@
+Truck name: last
+Max Weight: 1000.0 grams
+Current Weight: 650.0 grams
+	Coffee packed:
+Coffee name: Test2
+Manufacturer: Country
+Sort: Arabica
+Type: Grains
+Price: 725.0 UAH
+Package type: Can
+Weight: 650.0 grams
+Coffee Weight: 500.0 grams
+Package Weight: 150.0 grams
+Term: 36 month
+Grade: 3.5
+Number of packages: 1
+

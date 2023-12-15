@@ -1,5 +1,7 @@
 package com.truck;
 
+import Logs.EmailSender;
+import Logs.MyLogger;
 import com.coffee.Coffee;
 import com.coffee.CoffeePackaging;
 import com.coffee.CoffeeDataBase;
@@ -78,25 +80,29 @@ public class Truck extends CoffeePackaging {
         name = scanner.nextLine();
 
         System.out.print("Enter weight(in grams): ");
-        String weightInput = scanner.nextLine();
-        weight = Double.parseDouble(weightInput);
+        weight = Double.parseDouble(scanner.next());
+        scanner.nextLine();
 
         System.out.print("Enter Amount of packages: ");
         String packagesInput = scanner.nextLine();
         packagesAmount = Integer.parseInt(packagesInput);
+        coffee.setInfo(obj.getCoffee(weight, name));
 
         if (setCurrentWeight(coffee.getTotalWeight(), packagesAmount)) {
-            coffee.setInfo(obj.getCoffee(weight, name));
+            System.out.println("Enough space");
         }
 
         CoffeePackaging cp = new CoffeePackaging();
-        if (coffee.getTotalWeight() == weight && coffee.getCoffeeName().equals(name)) {
+        if (coffee.getTotalWeight() - getCurrentWeight() >= weight * packagesAmount) {
             cp.setInfo(coffee, packagesAmount);
             coffeeList.add(cp);
             writeTruckInfoToFile();
-            System.out.println("Baggage added");
+            MyLogger.logInfo("Adding coffee to the truck");
         } else {
             System.out.println("Too heavy baggage");
+            //String subject = "кава не загружена в грузовик";
+            //String body = "Вага кави не відпвідає нормам і тому вона не була загружена в грузовик";
+            //EmailSender.sendEmail("pashakcnk@example.com", subject, body);
         }
     }
 
